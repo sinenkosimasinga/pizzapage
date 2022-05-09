@@ -1,0 +1,53 @@
+body{
+    background-color: orange;
+}
+h1{
+    background-color: yellow;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    background-color: rosybrown;
+}
+.img{
+    width: 150px;
+    height: 150px;
+
+}
+.Small_pizza{
+    border: 1px solid black;
+    padding: 1em;
+    margin:  1em;
+    border-radius: 1em;
+    background-color: burlywood;
+}
+.Medium_pizza{
+    border: 1px solid black;
+    padding:  1em;
+    margin:  1em;
+    border-radius: 1em;
+    background-color: green;
+}
+.Large_pizza{
+    border: 1px solid black;
+    padding:  1em;
+    margin:  1em;
+    border-radius: 1em;
+    background-color: greenyellow;
+}
+.Larged_pizza{
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: grey;
+}
+@media (min-width: 768px) {
+    .Pizzas{
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+    max-width: fit-content;
+    }
+    
+}
